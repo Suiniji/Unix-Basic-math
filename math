@@ -1,0 +1,27 @@
+//Assume variable a=10, b=20
+tuugii@allmights-virtualbox: $ a=10
+tuugii@allmights-virtualbox: $ b=20
+
+//+ (Addition)
+tuugii@allmights-virtualbox: $ expr $a + $b //will give 30
+
+//- (Subtraction)
+tuugii@allmights-virtualbox: $ expr $a - $b //will give -10
+
+//* (Multiplication)
+tuugii@allmights-virtualbox: $ expr $a \* $b //will give 200
+
+/// (Division)
+tuugii@allmights-virtualbox: $ expr $b / $a //will give 2
+
+//% (Modulus)
+tuugii@allmights-virtualbox: $ expr $b % $a //will give 0
+
+//= (Assignment)
+tuugii@allmights-virtualbox: $ a = $b //would assign value of b into a
+
+//== (Equality)
+tuugii@allmights-virtualbox: $ $a == $b //would return false.
+
+//!= (Not Equality)
+tuugii@allmights-virtualbox: $ $a != $b //would return true.
